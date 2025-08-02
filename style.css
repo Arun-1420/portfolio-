@@ -408,6 +408,10 @@ footer {
   margin: 0 10px;
   display: inline-block;
 }
+.social-links a {
+  margin: 0 10px;
+  display: inline-block;
+}
 
 
 
