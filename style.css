@@ -187,7 +187,7 @@ body {
   text-align: center;
   position: relative;
   color: white;
-  background: url("road.jpg")center/cover no-repeat; /* Replace with your file */
+  background: url("1a.jpg")center/cover no-repeat; /* Replace with your file */
 }
 
 /* Overlay for readability */
@@ -261,7 +261,7 @@ h2 {
 /* Vintage Background */
 .vintage-bg {
   position: relative;
- background: url('io.jpg') center/cover no-repeat;
+ background: url('dc.jpg') center/cover no-repeat;
   border-radius: 12px;
   margin: 20px auto;
   padding: 40px 20px;
@@ -412,6 +412,7 @@ footer {
   margin: 0 10px;
   display: inline-block;
 }
+
 
 
 
