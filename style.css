@@ -409,4 +409,60 @@ footer {
   display: inline-block;
 }
 
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* This handles the image slideshow */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: bg-slide 15s infinite;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+/* Animation keyframes for slideshow */
+@keyframes bg-slide {
+  0%   { background-image: url('do.jpg'); }
+  33.33% { background-image: url('1a.jpg'); }
+  66.66% { background-image: url('1000060237.jpg'); }
+  100%  { background-image: url('do.jpg'); }
+}
+
+/* Overlay for dark tint, ABOVE slideshow */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  z-index: 1;
+}
+
+/* Ensures your text/content stays above everything */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+
 
