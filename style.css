@@ -187,7 +187,7 @@ body {
   text-align: center;
   position: relative;
   color: white;
-  background: url("1a.jpg")center/cover no-repeat; /* Replace with your file */
+  background: url("download(1).jpg")center/cover no-repeat; /* Replace with your file */
 }
 
 /* Overlay for readability */
@@ -408,3 +408,4 @@ footer {
   margin: 0 10px;
   display: inline-block;
 }
+
